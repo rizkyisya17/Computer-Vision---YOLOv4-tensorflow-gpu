@@ -1,0 +1,6 @@
+python detect.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --images ./input/tes3.png --output ./output/tes3.png
+python detect_video.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --video ./input/tesv1.MP4 --output ./output/tesv1.mp4
+python detect_video.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --video ./input/mask480.mp4
+python detect_video.py --weights ./checkpoints/yolov4-416-best1 --size 416 --model yolov4 --video ./input/mask2.mp4
+python detect_video.py --weights ./checkpoints/yolov4-tiny-416 --size 416 --model yolov4 --video ./input/earmuff480.MP4
+python detect_videoflow1.py --weights ./checkpoints/yolov4-tiny-416 --size 416 --model yolov4 --video 0
